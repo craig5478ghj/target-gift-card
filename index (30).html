@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .login-wrapper {
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .logo {
+        width: 250px;
+        margin: 1.5rem;
+      }
+
+      .login-container {
+        background-color: white;
+        padding: 30px;
+        width: 400px;
+        border-radius: 15px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .login-btn {
+        width: 100%;
+        padding: 15px;
+        background-color: #056dae;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-size: 20px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .login-btn:hover {
+        background-color: #144eb1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Target_logo.svg/1541px-Target_logo.svg.png"
+        alt="XYZ Logo"
+        class="logo"
+      />
+      <button
+        class="login-btn"
+        onclick="window.location.href='https://target-gift-check.vercel.app/';"
+      >
+        Check Your Balance Now !
+      </button>
+    </div>
+  </body>
+</html>
